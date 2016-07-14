@@ -1,13 +1,8 @@
 import re
 
 def is_palindrome(sentence):
-    print(re.sub('[^A-Za-z0-9]', '', sentence)[::-1])
     # TODO: return True or False if the sentence is or isn't a palindrome
-    if re.sub('[^A-Za-z0-9]', '', sentence).lower() == re.sub('[^A-Za-z0-9]', '', sentence)[::-1].lower():
-        return True
-    else:
-        return False
-
+    return re.sub('[^A-Za-z0-9]', '', sentence).lower() == re.sub('[^A-Za-z0-9]', '', sentence)[::-1].lower()
 
 def main():
     # TODO: put your input/output code here
