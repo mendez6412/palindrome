@@ -2,10 +2,8 @@ import re
 
 def is_palindrome(sentence):
     sentence = simplify(sentence)
-    print(sentence)
     # TODO: return True or False if the sentence is or isn't a palindrome
     while len(sentence) >= 0:
-        print(len(sentence))
         if len(sentence) == 1 or len(sentence) == 0:
             return True
         if compare_first_and_last(sentence):
@@ -30,6 +28,6 @@ def main():
 
 if __name__ == '__main__':
     if is_palindrome(main()):
-        print("Yes!")
+        print("Pal, you entered a palindrome!")
     else:
-        print("No!")
+        print("Oh no, that's not a palindrome!")

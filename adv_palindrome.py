@@ -11,6 +11,6 @@ def main():
 
 if __name__ == '__main__':
     if is_palindrome(main()):
-        print("Yes!")
+        print("Pal, you entered a palindrome!")
     else:
-        print("No!")
+        print("Oh no, that's not a palindrome!")
