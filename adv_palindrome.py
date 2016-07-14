@@ -7,10 +7,10 @@ def is_palindrome(sentence):
 def main():
     # TODO: put your input/output code here
     pal = input("Please enter a potential palindrome: ")
-    return pal
-
-if __name__ == '__main__':
-    if is_palindrome(main()):
+    if is_palindrome(pal):
         print("Pal, you entered a palindrome!")
     else:
         print("Oh no, that's not a palindrome!")
+
+if __name__ == '__main__':
+    main()
