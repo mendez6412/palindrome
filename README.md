@@ -1,10 +1,10 @@
-# palindrome
+#palindrome
 
 This is my TIY W1D3 Homework (focusing on recursion and string mutation).
 
-Normal Mode:
+##Normal Mode:
 
-palindrome.py
+###palindrome.py
 	FUNCTION:
 	- Test user input (string) for palindrome
 	NOTES:
@@ -12,27 +12,27 @@ palindrome.py
 	- For use with palindrome_test.py
 	- I've included the other difficulties in this file, but they are commented out
 	
-palindrome_test.py
+###palindrome_test.py
 	FUNCTION:
 	- Provide tests for palindrome.py
 
-Advanced Mode: 
+##Advanced Mode: 
 
-adv_palindrome.py
+###adv_palindrome.py
 	FUNCTION:
 	- Test user input (string) for palindrome
 	NOTES:
 	- Simplest solution to testing for palindrome
 
-loopy_palindrome.py
+###loopy_palindrome.py
 	FUNCTION:
 	- Test user input (string) for palindrome
 	NOTES:
 	- Uses loops to test for palindrome
 	
-Epic Mode:
+##Epic Mode:
 
-is_file_palindrome.py
+###is_file_palindrome.py
 	FUNCTION: 
 	- Test file input for palindromes by line
 	- Also test if entire file (read as a unit) is a palindrome
@@ -40,6 +40,6 @@ is_file_palindrome.py
 	NOTES:
 	- I'd like to improve the readability of the outputs
 
-Demetri_Martin.txt
+###Demetri_Martin.txt
 	NOTES:
 	- Martin's famous 224-word palindrome for testing
